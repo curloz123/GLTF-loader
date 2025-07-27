@@ -22,4 +22,6 @@ seeing this might know ->
 
 How to use ->
 
-Just add it in your main file as #include "/path/to/gltLoader.h" , and make sure to define all implementations once and properly
+1. Add it in your main file as #include "/path/to/gltLoader.h" , and make sure to define all implementations once and properly
+2. Make an model object like this -> GLTloader objectName;
+3. In your main game loop , make sure to use your shader which you want to use and call draw function -> objectName.Draw(yourShader);
